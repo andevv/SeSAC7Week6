@@ -8,7 +8,7 @@
 import UIKit
 import SnapKit
 
-class MarketViewController: UIViewController {
+final class MarketViewController: UIViewController {
 
     lazy var tableView = {
         let tableView = UITableView()

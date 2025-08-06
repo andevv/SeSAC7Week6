@@ -8,7 +8,15 @@
 import Foundation
 import Alamofire
 
-class NetworkManager {
+class Coffee {
+    
+}
+
+class Americano: Coffee {
+    
+}
+
+final class NetworkManager {
     
     static let shared = NetworkManager()
     
