@@ -32,6 +32,8 @@ final class MarketViewController: UIViewController {
         configureHierarchy()
         configureLayout()
         configureView()
+        
+        total(a: 67, b: 1)
     }
     
     func callRequest() {
